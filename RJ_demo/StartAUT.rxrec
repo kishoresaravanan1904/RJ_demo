@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3b5c74bf-6b4d-40fc-8bf3-a06b8a09d65f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="RJ_demo">
+	</codegen>
+	<variables>
+		<var
+		id="2284716f-6119-4295-9e33-ead945009083"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\Kishore\Desktop\noc smart\rxdemo.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="e44d88c5-254e-41fd-b158-dccb4d380942"
+	name="RJ_demoRepository"
+	relativepath="RJ_demoRepository.rxrep">
+		<codegen
+		classname="RJ_demoRepository"
+		namespace="RJ_demo">
+		</codegen>
+		<rootfolder
+		id="d18c5420-a08c-4ab8-9c86-bf6e538d68c9"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
